@@ -1,0 +1,119 @@
+commit c630832fa9b4fba5fa1445e7f84d652fd62ef1a0
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 10:09:27 2017 +0000
+
+    Add report for final submission
+
+commit 4bd0406c4e52d633e3c3a92aa1eabd440f9ed388
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 09:35:06 2017 +0000
+
+    Fix very minor timestamp issue
+
+commit 55923a2cb35f0a4f14393544081d242ac1ac4a62
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 09:04:50 2017 +0000
+
+    Fix incorrectly named Apache service for Ubuntu and Debian
+
+commit 3b4c6eb0cf50ce3360c83774a9e87ab2e14bac0f
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 07:49:58 2017 +0000
+
+    Change directory sturcture
+
+commit ddc7913ddb9345b8bffcfc84e0733b80071c6d3b
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 07:48:15 2017 +0000
+
+    Add license (MIT)
+
+commit 83b476227f5d06697758f64cf9d33b518a8b57dc
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 07:47:05 2017 +0000
+
+    Run log for proof of success
+
+commit ca0f7e5d1d96d0abf2a6931d19d67df4e0d126ef
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 07:33:11 2017 +0000
+
+    Comment out titan mount exec resource, so that it runs on release (I will not include my password in the release
+
+commit 485067f91c22f3a4a8b7be8737b823c4dee9dd7d
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 07:27:28 2017 +0000
+
+    puppet-lint compliance, various small fixes
+
+commit 15ab5c80a62fc8a072e9fcfce299ba0758b3b1c1
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 06:37:17 2017 +0000
+
+    SSHFS mounting, and fixing service subscription issues
+
+commit 609e46b19bcdb2a61e53fd7feccd703140b48771
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 05:46:45 2017 +0000
+
+    Add package dependencies based on other requirements and operations
+
+commit 0868df97e2efe86d6e6a858cd0e78c8ed598f50b
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 03:49:27 2017 +0000
+
+    Add timestamp message, and path requirement
+
+commit 28e1e1168030bf8f423550fdfcd54cbd32379864
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Fri Oct 13 03:41:00 2017 +0000
+
+    Set default run level to 3, various operating system fixes
+
+commit 4892f3d8f9ff88cb2a7f260736c890bd0c7d8308
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Thu Oct 12 10:27:44 2017 +0000
+
+    Add RMIT servers to hosts file
+
+commit 7134156423c2329b73879adca844649c91bad90d
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Thu Oct 12 10:16:48 2017 +0000
+
+    Added multi-distribution handling
+
+commit a6ca74e2630695f5c877b8a4434bb0fce359efef
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Wed Oct 11 08:39:31 2017 +0000
+
+    Ensure openssh-server is present, and add comments.
+
+commit 7eaf6f5a667b4d821d31e28be91cdc06dfd3104b
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Wed Oct 11 07:36:34 2017 +0000
+
+    Modify sudoers file for becca, add fred to wheel group, and require packages before various configuration changes.
+
+commit 7f48833eb60f2893cefd6f73b38e125cd90925a8
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Wed Oct 11 07:04:13 2017 +0000
+
+    Pervent root logins for SSH
+
+commit 759350e633bd977cfa4912b865a032792cd5e391
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Wed Oct 11 04:15:31 2017 +0000
+
+    Class division, and various additions
+
+commit 04a4e546f946e8f986c43985cfdf140fffea1b71
+Author: Aaron Horler <s3481341@student.rmit.edu.au>
+Date:   Mon Oct 9 02:31:59 2017 +0000
+
+    Encrypted passwords, and class name change.
+
+commit 3887ed9049f1648ecc8f6358beb68f63e653163c
+Author: root <root@puppet.aaronhorler.com>
+Date:   Tue Oct 3 02:45:22 2017 +0000
+
+    Initial works on users and groups
