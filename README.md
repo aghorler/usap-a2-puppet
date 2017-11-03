@@ -10,7 +10,7 @@
 
 # usap-a2-puppet
 
-Puppet scripts to configure Linux hosts (CentOS primarily, but also Ubuntu and Debain) to assignment specification.
+Puppet scripts to configure Linux hosts (CentOS primarily, but also Ubuntu and Debian) to assignment specification.
 
 ## Plagiarism notice
 
