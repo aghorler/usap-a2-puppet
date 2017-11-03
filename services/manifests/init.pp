@@ -10,7 +10,7 @@ class services {
 
     # Operating system case to handle variations in common distributions.
     case $::operatingsystem {
-        'Debain', 'Ubuntu': {
+        'Debian', 'Ubuntu': {
             # Run Apache, requiring the package is installed and the configuration file is edited. Also subscribe to configuration file.
             service { 'apache2' :
                 ensure    => running,

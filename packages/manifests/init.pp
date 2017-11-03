@@ -22,7 +22,7 @@ class packages {
 
     # Operating system case to handle variations in common distributions.
     case $::operatingsystem {
-        'Debain', 'Ubuntu': {
+        'Debian', 'Ubuntu': {
             # Ensure presence of OpenSSH client from package manager. 
             package { 'openssh-client':
                 ensure => present,

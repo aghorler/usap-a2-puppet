@@ -14,7 +14,7 @@ class users {
 
     # Operating system case to handle variations in common distributions.
     case $::operatingsystem {
-        'Debain', 'Ubuntu': {
+        'Debian', 'Ubuntu': {
             # Create fred user.
             user { 'fred':
                 ensure     => present,

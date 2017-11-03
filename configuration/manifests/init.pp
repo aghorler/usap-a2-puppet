@@ -25,7 +25,7 @@ class configuration {
 
     # Operating system case to handle variations in common distributions.
     case $::operatingsystem {
-        'Debain', 'Ubuntu': {
+        'Debian', 'Ubuntu': {
             # Add apache2.conf to catalog, for service subscription.
             file {'/etc/apache2/apache2.conf':
                 ensure  => present,
